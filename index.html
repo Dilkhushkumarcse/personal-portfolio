@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilkhush Kumar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">DK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#blog">Post</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="/images/profile-photo.png" alt="Dilkhush Kumar" class="profile-photo">
+                <h1>Dilkhush Kumar</h1>
+                <p class="tagline">Aspiring Data Scientist | Turning Data into Insights</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <p>
+                    “I am a passionate Computer Science Engineering student with a strong interest in Data Science.
+                    <br>My goal is to leverage data to build intelligent solutions that address real-world problems. I
+                    thrive on challenges and continuously learn new technologies to enhance my skills.”
+                </p>
+                <h3>Education</h3>
+                <p><strong>Bachelor of Technology in Computer Science and Engineering (CSE)</strong>
+                    <br>I.K. GUJRAL PUNJAB TECHNICAL UNIVERSITY | Baba Banda Singh Bahadur Engineering College,
+                    Fatehgarh Sahib(Punjab). Expected Graduation: 2026
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+            <!-- web project1-- portfolio -->
+            <div class="project-gallery">
+                <div class="project-card" data-category="web">
+                    <img src="/images/portfolio.webp" alt="Event Management System">
+                    <div class="project-info">
+                        <h3>Personal-portfolio</h3>
+                        <p>
+                            <span class="short-text">personal portfolio website built to showcase my skills, projects,
+                                and achievements as a Computer Science Engineering student.
+                            </span>
+                            <span class="more-text"> The site features a clean and responsive design, smooth navigation,
+                                and sections such as About Me, Education, Skills, Projects, and Contact.<span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/dilkhush-portfolio" target="_blank"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a href="https://dilkhushportfolio.netlify.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ai/ml - AI-powered medical data classification -->
+                <div class="project-card" data-category="ai">
+                    <img src="./images/ai.jpeg" alt="Local Farmer's Market">
+                    <div class="project-info">
+                        <h3>AI-powered medical data classification</h3>
+                        <p>
+                            <span class="short-text">This system is an AI-powered Clinical Decision Support System that
+                                predicts multiple diseases </span>
+                            <span class="more-text">using patient health data, leveraging Machine Learning, Deep
+                                Learning, and Explainable AI to ensure accurate and transparent predictions.</span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/Ai-powered-medical-data-Classification-"
+                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Event management system -->
+                <div class="project-card" data-category="web">
+                    <img src="/images/ems.jpg" alt="AI Clinic Project">
+                    <div class="project-info">
+                        <h3>Event management system</h3>
+                        <p class="project-text">
+                            <span class="short-text">
+                                This System Designed and developed a web application enabling users to create, manage,
+                                and participate in events.
+                            </span>
+                            <span class="more-text" style="display:none;">
+                                Implemented features such as user authentication, event creation with image upload,
+                                search & filter, and admin panel for event moderation. Built with MongoDB, Express.js,
+                                Node.js, and JavaScript (MERN stack)
+                            </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/Event-management-system_2" target="_blank"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <img src="/images/RAG - AI.webp" alt="AI Clinic Project">
+                    <div class="project-info">
+                        <h3>RAG-based AI Teaching assistant</h3>
+                        <p class="project-text">
+                            <span class="short-text">
+                                Developed an AI-powered teaching assistant using RAG Generation to deliver context-aware
+                                answers from academic resources.
+                            </span>
+                            <span class="more-text" style="display:none;">
+                                Implemented document retrieval, semantic search, and LLM integration to enhance learning
+                                support with accurate, real-time responses.
+                            </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/Event-management-system_2" target="_blank"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="data">
+                    <img src="/images/data.webp" alt="AI Clinic Project">
+                    <div class="project-info">
+                        <h3>AI-Powered Sentiment Analysis on Social Media</h3>
+                        <p class="project-text">
+                            <span class="short-text">
+                                This project analyzes social media posts (e.g., tweets or product reviews) to determine
+                                user sentiment as positive, negative, or neutral.
+                            </span>
+                            <span class="more-text" style="display:none;">
+                                It combines Natural Language Processing techniques like tokenization, TF-IDF, and word
+                                embeddings with machine learning models. The project can provide valuable insights into
+                                customer opinions, trending topics, or brand perception.
+                            </span>
+                        </p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                        <div class="project-links">
+                            <a href="https://github.com/Dilkhushkumarcse/Event-management-system_2" target="_blank"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Science</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Deep Learning</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MYSQL</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+            </div>
+        </section>
+        <!-- expeerience -->
+        <section id="experience">
+            <h2>Experience & Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Web Development Intern – Novem Controls</h3>
+                    <p>Completed a 6-week industrial internship focused on Web Development(frontend), gaining hands-on
+                        experience in building and managing web applications.</p>
+                    <span class="date">05 June 2024 – 20 July 2024</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>3rd Place - tack-titan's 2025 Hackathon</h3>
+                    <p>Developed an innovative solution for farmers within 24 hours, earning a podium finish among
+                        50+ teams.</p>
+                    <span class="date">21 March 2025</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Machine Learning Workshop</h3>
+                    <p>Attended a one-day workshop by NIELIT Chandigarh on Machine Learning covering Python, NumPy,
+                        Pandas, Supervised & Unsupervised Learning</p>
+                    <span class="date">26 March 2025</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>International Conference on AI and Machine Learning</h3>
+                    <p>Participated and presented at ICAIML-2025 organized by Jagat Guru Nanak Dev Punjab State Open
+                        University, Patiala, focusing on applications of AI and ML.</p>
+                    <span class="date">22 Feb 2025</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Tech Fest - Tech titan's 2024</h3>
+                    <p>Secured 1st position in Stunt & Agneseh event organized by the Research and Innovation Cell at
+                        Baba Banda Singh Bahadur Engineering College, Fatehgarh Sahib.</p>
+                    <span class="date">22 March 2024</span>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>Latest Posts</h2>
+            <div class="blog-carousel-container">
+                <div class="blog-carousel-track">
+
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>The Future of Web Development</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <br>
+                            The future of web development is poised to undergo a massive transformation as technology
+                            continues to evolve at an unprecedented pace.
+                            The shift is not just about creating visually appealing websites anymore but building highly
+                            interactive, intelligent, and accessible platforms that cater to the ever-changing needs of
+                            users. Developers must prepare for an ecosystem where
+                            automation, AI, and cloud-native technologies
+                            drive efficiency and innovation.<br><br>
+
+                            <br>
+                            One of the most significant changes shaping the future is the rise of <strong>serverless
+                                architecture</strong>.
+                            By removing the need to manage backend servers manually, developers can focus solely on
+                            writing code, while platforms like AWS Lambda, Azure Functions,
+                            and Google Cloud Functions handle the infrastructure. This approach not only reduces
+                            operational costs but also makes applications more scalable and resilient.
+                            <br><br>
+                            <br>
+                            Another trend that’s gaining momentum is the growth of the <strong>Jamstack</strong>
+                            (JavaScript, APIs, and Markup).
+                            By decoupling the frontend from the backend, Jamstack allows developers to build faster,
+                            more secure, and more scalable web applications.
+                            Static site generators combined with headless CMS solutions are empowering developers to
+                            deliver seamless digital experiences.
+                            <br><br>
+                            <br><strong>Artificial Intelligence (AI)</strong> is also becoming an integral part of web
+                            development.
+                            From chatbots and recommendation engines to AI-driven design tools, machine learning models
+                            are enhancing how websites interact with users.
+                            Personalized content, predictive search, and intelligent analytics are only the beginning of
+                            what AI can bring to the web.
+                            <br><br>
+                            <br>
+                            In addition, <strong>WebAssembly (Wasm)</strong> is revolutionizing performance on the web.
+                            It allows developers to run high-performance applications, such as video editing tools, 3D
+                            rendering engines, and even games, directly in the browser at near-native speed.
+                            This opens the door to a new generation of web apps that were previously limited to desktop
+                            software.
+                            <br><br>
+                            <br>
+                            The importance of <strong>progressive web apps (PWAs)</strong> is also expected to grow.
+                            PWAs combine the best of web and mobile apps, offering offline access, push notifications,
+                            and fast load times.
+                            As more businesses adopt PWAs, users will enjoy seamless experiences across devices without
+                            the need for constant app downloads.
+                            <br><br>
+                            <br>
+                            Security will remain a top priority in the future of web development.
+                            With the increasing number of cyber threats, developers must implement stronger encryption,
+                            secure authentication, and better data protection practices.
+                            Privacy-focused design will not only build trust but also comply with evolving regulations
+                            like GDPR and CCPA.
+                            <br><br>
+                            <br>
+                            Moreover, <strong>edge computing</strong> will play a crucial role in reducing latency and
+                            improving performance.
+                            By processing data closer to the user rather than relying solely on centralized servers,
+                            developers can deliver faster, more efficient applications.
+                            This is particularly important for real-time applications like gaming, video streaming, and
+                            IoT.
+                            <br><br>
+                            <br>
+                            Accessibility and inclusivity will continue to guide the future of web development.
+                            Creating websites that are usable for people with disabilities is no longer optional but
+                            essential.
+                            Developers must embrace accessible design patterns, proper semantic markup, and assistive
+                            technologies to ensure everyone can navigate and use the web effectively.
+                            <br><br>
+                            <br>
+                            In conclusion, the future of web development will be driven by innovation, inclusivity, and
+                            intelligence.
+                            Developers who embrace serverless technologies, AI, WebAssembly, and accessibility will be
+                            at the forefront of this transformation.
+                            The web will no longer just be a place to find information but a dynamic, immersive, and
+                            personalized platform that seamlessly integrates into our daily lives.
+                            <br><br>
+                        </p>
+                    </div>
+
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>RAG-based AI Teaching Assistant</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <br> <strong>Introduction to RAG-based AI</strong><br>
+                            Retrieval-Augmented Generation (RAG) is one of the most promising AI techniques in modern
+                            natural language processing. Unlike traditional AI models that rely solely on pre-trained
+                            knowledge, RAG combines the power of large language models (LLMs) with external knowledge
+                            retrieval. This allows the system to generate fluent text while staying accurate,
+                            up-to-date, and context-aware. In education, this means AI can serve as a reliable teaching
+                            assistant capable of providing precise, personalized learning experiences.<br><br>
+
+                            <strong>Why Education Needs RAG</strong><br>
+                            The traditional classroom model often struggles to cater to the needs of every student.
+                            Teachers are limited in time and resources, making it difficult to provide personalized
+                            attention. RAG-based AI solves this challenge by augmenting learning with instant access to
+                            vast amounts of academic material. Students can ask questions and receive answers that are
+                            contextually accurate and backed by the latest information from trusted sources.<br><br>
+
+                            <strong>How RAG Works in a Teaching Assistant</strong><br>
+                            At its core, a RAG-based system follows a two-step process: retrieval and generation. When a
+                            student asks a question, the AI first searches for relevant documents, articles, or
+                            textbooks from its connected knowledge base. Once retrieved, the information is combined
+                            with the generative power of an LLM, producing a comprehensive and student-friendly
+                            explanation. This ensures the response is both factually accurate and easy to
+                            understand.<br><br>
+
+                            <strong>Personalized Learning Experience</strong><br>
+                            Every student learns at their own pace and style. A RAG-powered AI teaching assistant can
+                            adapt explanations based on the student’s level of understanding. For beginners, it can
+                            simplify concepts using analogies and examples. For advanced learners, it can provide
+                            detailed technical explanations with references and real-world applications. This
+                            adaptability ensures no student is left behind.<br><br>
+
+                            <strong>Instant Access to Updated Knowledge</strong><br>
+                            One limitation of pre-trained models is that their knowledge is static and tied to their
+                            training data. Education is constantly evolving, with new discoveries, papers, and
+                            technologies emerging daily. A RAG-based AI assistant overcomes this issue by retrieving
+                            fresh information from academic sources, ensuring students always learn from the most recent
+                            and reliable content.<br><br>
+
+                            <strong>Enhancing Teacher Productivity</strong><br>
+                            Teachers can use a RAG-based AI assistant to offload repetitive tasks such as answering
+                            frequently asked questions, grading simple assignments, or providing reading materials. This
+                            allows educators to focus more on mentoring, creativity, and interactive teaching, while
+                            students continue to receive consistent support outside classroom hours.<br><br>
+
+                            <strong>Bridging the Knowledge Gap</strong><br>
+                            Students often hesitate to ask questions in class due to fear of embarrassment or lack of
+                            confidence. With an AI teaching assistant available 24/7, they can freely ask questions at
+                            any time. Whether it’s clarifying a math problem, exploring a historical event, or
+                            understanding a programming concept, RAG ensures no gap remains unaddressed in a learner’s
+                            knowledge journey.<br><br>
+
+                            <strong>Real-World Applications in Learning</strong><br>
+                            Imagine a student studying computer science who struggles to understand neural networks. The
+                            AI assistant can retrieve content from trusted textbooks, research papers, and blogs, and
+                            generate an explanation tailored for the student. It can even provide diagrams, code
+                            snippets, and links for further reading. This not only saves time but also enriches the
+                            learning experience with multiple perspectives.<br><br>
+
+                            <strong>Challenges and Considerations</strong><br>
+                            While the benefits of RAG-based AI are significant, there are challenges to address. These
+                            include ensuring the reliability of retrieved content, avoiding bias in information, and
+                            maintaining academic integrity. It is also important to design the assistant to encourage
+                            critical thinking rather than over-reliance on AI-generated responses. Balancing automation
+                            with human guidance will be key to long-term success.<br><br>
+
+                            <strong>The Future of AI in Education</strong><br>
+                            The integration of RAG-based AI assistants in classrooms has the potential to transform
+                            education globally. By combining the intelligence of machines with the empathy and
+                            creativity of teachers, we can create hybrid learning environments that empower every
+                            student. As AI continues to evolve, the role of teaching assistants will expand, making
+                            education more personalized, accessible, and engaging than ever before.
+                        </p>
+                    </div>
+
+                    <div class="blog-post">
+                        <div class="blog-post-header">
+                            <h3>AI-powered medical data classification</h3>
+                            <i class="fas fa-expand fullscreen-btn" title="Read Fullscreen"></i>
+                        </div>
+                        <p class="blog-text">
+                            <br>
+                            The AI-Powered Medical Data Classification project aims to revolutionize healthcare by
+                            leveraging artificial intelligence to analyze patient data and accurately predict medical
+                            conditions. In today’s medical landscape, healthcare providers face enormous amounts of
+                            data, including lab results, demographics, symptoms, and medical histories. Manually
+                            processing this information is not only time-consuming but also prone to human error. Our
+                            system automates this process, allowing for faster and more reliable <br><br>
+                            <br>
+                            At the core of the project is data preprocessing and feature selection. Raw medical data
+                            often contains inconsistencies, missing values, or irrelevant information, which can affect
+                            the accuracy of predictions. We clean and normalize the data, then extract and select the
+                            most significant features that contribute to accurate classification. This ensures that our
+                            machine learning models are trained on high-quality, relevant data. <br><br>
+                            <br>
+                            We utilize advanced machine learning algorithms such as decision trees, random forests, and
+                            XGBoost to classify patient data. Each model is trained and validated using real-world
+                            datasets to ensure accuracy, precision, and reliability. Evaluation metrics like precision,
+                            recall, and F1-score help measure the performance of the models, ensuring that predictions
+                            are both statistically sound and clinically meaningful. <br><br>
+                            <br>
+                            The system features a user-friendly interface that allows healthcare providers to input
+                            patient information and receive immediate predictions. This functionality can help
+                            prioritize critical cases, reduce diagnostic errors, and assist in creating personalized
+                            treatment plans. By integrating AI into the diagnostic process, medical professionals can
+                            make more informed and timely decisions, ultimately improving patient outcomes. <br><br>
+                            <br>
+                            Looking ahead, this project has the potential to expand into real-time patient monitoring
+                            and predictive analytics, offering insights into disease progression and risk factors. By
+                            combining machine learning with healthcare expertise, the AI-Powered Medical Data
+                            Classification system demonstrates the transformative impact of technology in making medical
+                            diagnostics smarter, faster, and more efficient. <br><br>
+                        </p>
+                    </div>
+                </div>
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="mobile_no" name="mobile_no" placeholder="Your Mobile no">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dilkhush-kumar-b58664273/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/Dilkhushkumarcse" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:dilkhush4kr@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+                <a href="https://www.instagram.com/mr_dilkhush_45/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+            </div>
+        </section>
+        <a id="resume-btn">
+            <a href="files/resume.pdf" download="Dilkhush_Kumar_Resume.pdf" class="resume-btn">Download Resume <a>
+            </a>
+    </main>
+    <!-- Fullscreen Modal -->
+    <div id="fullscreenModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalText"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Dilkhush Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
